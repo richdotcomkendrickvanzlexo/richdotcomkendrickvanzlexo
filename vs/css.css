@@ -1,0 +1,256 @@
+/* <h1>TRUST <span>AGENCY</span></h1>
+<h1>WE FOCUS ON <br> WHAT MATTERS</h1>
+<p class="text"">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aspernatur repellendus iusto facere molestias placeat iste distinctio repellat qui neque quae alias dolore nostrum nulla, quis deserunt maiores minus inventore!
+    </p> */
+    .home{   
+      margin: 0;
+      padding: 0;
+      }
+.header{ 
+   background-color: #0f3047;
+   width: 100vw;
+   height: 100vh;
+   font-family: helvetica;
+   color: white;
+   }
+  
+  .header h1{  
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: x-large;
+    margin: 0.4em 1.5em;
+    padding: 1em 1.4em;
+    }
+    .header h1 span{  
+      color: #e88431;
+      font-weight: medium;
+      font-size: x-small;
+      letter-spacing: 10px;
+        }
+.header h2{ 
+  font-weight: bolder;
+  font-size: xx-large;
+  margin: 0.4em 1.5em;
+  padding: 1em 1.4em;
+  text-transform: uppercase;
+   }
+   .header p{  
+    margin: 0.9em 1.5em;
+    padding: 1em 1.4em;
+    font-weight: bolder;
+    font-size:small;
+    color: #e88431;
+    border-left: 2px solid #74bde0 ;
+    }
+    /* <button id="id">get started</button>
+    <button id="iv">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+          </svg></a> watch video
+    </button> */
+    #id {  
+      color: beige;
+      background-color: #74bde0;
+      border: 1px solid  #74bde0 ;
+      font-weight: bold;
+      font-size:medium;
+      word-spacing:2px;
+      border-radius: 35px;
+      padding: 0.3em 1.5em;
+      margin: 0.4em 1.5em;
+      text-transform: uppercase;
+      }
+      #id:hover{  
+        color: beige;
+        background-color: #007db7;
+        border: 1px solid  #74bde0 ;
+        font-weight: bolder;
+        font-size:medium;
+        word-spacing:2px;
+        border-radius: 35px;
+        padding: 0.3em 1.5em;
+        margin: 0.4em 1.5em;
+        text-transform: uppercase;
+        }
+  #id1{  
+    color: rgba(255, 255, 255, 0.682);
+    background: none;
+    border: none;
+    font-weight: medium;
+    font-size: large;
+    text-transform: uppercase;
+    } 
+     #id1:hover{  
+      color: white;
+       }
+/* navigation zone */
+.nav_bar{   
+  background-image: linear-gradient(rgba(0, 0, 0,0.63),rgba(0, 0, 0,0.63)),url(pexels-fauxels-3183172.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* background-image:url(pexels-fauxels-3183172.jpg) ; */
+  }
+.nav_bar a{ 
+  font-size: medium;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  background: none;
+  margin: 2em 0.4em;
+  padding: 1.3em 0.5em;
+  text-decoration: none;
+   }
+   .nav_bar a:hover{ 
+    color: #007db7;
+    text-decoration: underline;
+    text-decoration-color: #007db7;
+      }
+      /* <div class="why">
+      Why <span>Choose</span> Us
+  </div> */
+  .wh1  img{  
+    padding-top: 0.4em;
+    margin-top: 1.96em;
+    }
+  .why h1{  
+color: black;
+font-family: sans-serif;
+font-weight: bolder;
+font-size: xx-large;
+word-spacing: 2px;
+padding: 0.5em 0;
+text-align: center;
+    }
+    .why h1 span{  
+      border-bottom: 3px solid #007db7;
+      }
+      .why_chooseus{ 
+        background-color: #ccd2c6;
+        }
+        /* <div class="carousel-item active ">
+        <h1>LETS GROW OUR BUSINESS TOGETHER</h1>
+        <h2>WE SHARE SAME GOAL...</h2>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Ut, labore? Repellat laboriosam, architecto atque earum repudiandae harum nemo culpa quos magni sed ea labore cumque animi non nulla odio? Vel!</P>
+                         </div> */
+      .carousel-item h1{  
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: small;
+        text-align: center;
+        padding: 0.7em 0;
+        }
+        .carousel-item h2{ 
+          text-transform: capitalize;
+          font-weight: bold;
+          font-size: medium;
+          text-align: center;
+          color: #0f3047;
+          }
+          .carousel-item p{  
+            text-transform: capitalize;
+            font-weight: normal;
+            font-size: medium;
+            text-align: center;
+            word-break: break-all;
+            box-sizing: border-box;
+            }
+            .carousel-inner{  
+              margin-top: 2%;
+              padding: 9% 0;
+              }
+              .col a{ 
+                color: #007db7;
+                font-weight: bold;
+                }
+                .col a h2{ 
+                  text-transform: capitalize;
+          font-weight: bold;
+          font-size: medium;
+          text-align: center;
+          color: #0f3047;
+          text-decoration: none;
+                   }
+      .col p{  
+        text-transform: capitalize;
+        font-weight:lighter;
+        font-size: small;
+        text-align: center;
+        word-break: break-all;
+        box-sizing: border-box;
+        }
+        .row{ 
+          margin: 1.3% 0;
+          background-color: white;
+           }
+           .service h1{  
+            color: black;
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: xx-large;
+            word-spacing: 2px;
+            padding: 0.5em 0.7em;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 2em 0;
+                }
+        .service h1 span{  
+          border-bottom:3px solid #007db7;
+          }
+          .container_element{  
+            background-image: linear-gradient(#007db775,#007db786),url(pexels-kaique-rocha-65438.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            padding: 8% 2%;
+           }
+           .container_element h1{ 
+            color: rgb(255, 255, 255);
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: xx-large;
+            word-spacing: 2px;
+            padding: 0.3em 0.7em;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0.3em 0;
+             }
+             .container_element p{   
+              text-transform: capitalize;
+              font-weight:lighter;
+              font-size: small;
+              text-align: center;
+              word-break: break-all;
+              box-sizing: border-box;
+              color: white;
+              }
+.container_element button{
+  color: beige;
+  background-color: #74bde0;
+  border: 1px solid  #74bde0 ;
+  font-weight: bold;
+  font-size:medium;
+  word-spacing:2px;
+  border-radius: 35px;
+  padding: 0.3em 1.5em;
+  margin: 0.4em 1.5em;
+  text-transform: uppercase;
+   }
+   .container_element button:hover{  
+    color: beige;
+    background-color: #007db7;
+    border: 1px solid  #74bde0 ;
+    font-weight: bolder;
+    font-size:medium;
+    word-spacing:2px;
+    border-radius: 35px;
+    padding: 0.3em 1.5em;
+    margin: 0.4em 1.5em;
+    text-transform: uppercase;
+    }
+          
